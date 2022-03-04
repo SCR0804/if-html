@@ -3,48 +3,33 @@
 }
 
 .section {
-    max-height: 569px;
-    max-width: 1440px;
+    margin: 0 auto;
 }
 
-.title {
+h2 {
     margin: 0 auto;
     width: 306px;
-    height: 47px;
     font-style: normal;
     font-size: 25px;
-    line-height: 47px;
     color: #383838;
     padding-top: 120px;
+    text-align: center;
 }
 
-.under-title {
+.line {
+    display: block;
     margin: 0 auto;
-    width: 100px;
-    height: 4px;
     padding-top: 20px;
 }
-
 .cards {
-    height: 183px;
-
-}
-
-.card {
-    width: 10%;
-    float: left;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     padding: 80px 104px 120px;
 
-
 }
 
-.icon {
-    height: 80px;
-    width: 80px;
-
-}
-
-.description {
-    align-items: center;
-    padding-top: 48px;
+p {
+    padding-top: 20px;
 }
