@@ -7,162 +7,42 @@
     <meta name="author" content="Сергей Якимович">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first page</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-            width: 50%;
-        }
-    </style>
+
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-<h1>Моя первая страница</h1>
-
-<p>Меня зовут Сергей и в настоящее время я обучаюсь в школе IntellectFox на front-end разработчика.
-    Пройдя по данной <a href="about/index.html" target="_blank">ссылке</a> можно узнать больше информации обо мне.</p>
-<hr/>
-<img src="images/tiger.jpg" alt="tiger" width="299" height="169">
-<hr/>
-<ol>
-    <li>Знакомство с WEB
-        <ul>
-            <li>Краткая история Web и что такое интернет.</li>
-            <li>Как устроен браузер и как он получает страницы по сети.</li>
-            <li>Что такое Git?</li>
-            <li>Создание первого репозитория.</li>
-            <li>О файле .gitignore</li>
-        </ul>
-    </li>
-    <li>HTML-вёрстка-первые шаги
-        <ul>
-            <li>Настройка рабочей среды.</li>
-            <li>Краткая история HTML.</li>
-            <li>Какие бывают теги и что такое атрибут.</li>
-            <li>Теги для работы с текстом.</li>
-            <li>Создание собственной страницы.</li>
-        </ul>
-    </li>
-    <li>Погружение в HTML-разметку
-        <ul>
-            <li>Мета-теги.</li>
-            <li>Мнемоники.</li>
-            <li>Тег для работы с изображениями.</li>
-            <li>Теги для работы со списками.</li>
-            <li>Теги для работы с таблицами.</li>
-            <li>Теги для работы с формами.</li>
-            <li>Div-блоки.</li>
-        </ul>
-    </li>
-</ol>
-
-<hr/>
-<table>
-    <thead>
-    <tr>
-
-        <th>Tag</th>
-        <th>Description</th>
-    </tr>
-    </thead>
 
 
-    <tbody>
-    <tr>
-        <td>&#8249;table&#8250;</td>
-        <td>Defines a table</td>
-    </tr>
-    <tr>
-        <td>&#8249;tr&#8250;</td>
-        <td>Defines a row in a table</td>
-    </tr>
-    <tr>
-        <td>&#8249;th&#8250;</td>
-        <td rowspan="2">Defines a &#8246;header cell&#8246; &#8260; &#8246;cell&#8246; in a table</td>
-    </tr>
-    <tr>
-        <td>&#8249;td&#8250;</td>
-    </tr>
-    <tr>
-        <td colspan="2">Rarely used</td>
-    </tr>
-    <tr>
-        <td>&#8249;caption&#8250;</td>
-        <td>Defines a table caption</td>
-    </tr>
-    <tr>
-        <td>&#8249;thead&#8250;</td>
-        <td>Groups the header content in a table</td>
-    </tr>
-    <tr>
-        <td>&#8249;tbody&#8250;</td>
-        <td>Groups the body content in a table</td>
-    </tr>
+<section class="section">
+
+    <h2>What do we offer</h2>
+    <img class="line" src="images/line.png" alt="">
 
 
-    <tr>
-        <td>&#8249;tfoot&#8250;</td>
-        <td>Groups the footer content in a table</td>
-    </tr>
-    </tbody>
+    <ul class="cards">
+        <li class="card">
+            <img class="icon" src="images/headphones.png" alt="Headphones">
+            <p>Support 24/7</p>
+        </li>
 
-</table>
+        <li class="card">
+            <img src="images/communicate.png" alt="Communicate">
+            <p>Communicate directly</p>
+        </li>
 
-<hr/>
+        <li class="card">
+            <img src="images/booking.png" alt="Booking">
+            <p>Book online</p>
+        </li>
 
-<form action="/" method="GET">
-    <fieldset>
-        <legend>My first form</legend>
-        <label for="name">Name</label> <br/>
-        <input type="text" id="name" name="name" placeholder="Name" required/> <br/>
+        <li class="card">
+            <img src="images/finger.png" alt="Finger">
+            <p>Real guest reviews</p>
+        </li>
 
-        <label for="email">Email</label> <br/>
-        <input type="email" id="email" name="email" required/> <br/>
+    </ul>
+</section>
 
-        <label for="password">Password</label> <br/>
-        <input type="password" id="password" name="password" required> <br/>
-
-        <label for="range">Your programming level</label> <br/>
-        <input type="range" id="range" name="range" min="1" max="10"> <br/>
-        <p>
-            What does HTML stand for? <br/>
-            <input type="checkbox" id="hyperlinks" name="html" value="Hyperlinks and Text Markup Language">
-            <label for="hyperlinks">Hyperlinks and Text Markup Language</label> <br>
-
-            <input type="checkbox" id="home_tool" name="html" value="Home Tool Markup Language">
-            <label for="home_tool">Home Tool Markup Language</label> <br>
-
-            <input type="checkbox" id="html" name="html" value="Hyper Text Markup Language">
-            <label for="html">Hyper Text Markup Language</label> <br>
-
-        </p>
-        <p>
-            What does HTTP stand for? <br/>
-            <input type="radio" id="translate" name="http" value="Hyper Text Translate Protocol">
-            <label for="translate">Hyper Text Translate Protocol</label> <br>
-
-            <input type="radio" id="transmission" name="http" value="Hyper Text Transmission Protocol">
-            <label for="transmission">Hyper Text Transmission Protocol</label> <br>
-
-            <input type="radio" id="transfer" name="http" value="Hyper Text Transfer Protocol">
-            <label for="transfer">Hyper Text Transfer Protocol</label> <br>
-
-        </p>
-        <p>
-            <label for="comment">Comment</label> <br/>
-            <textarea id="comment" name="comment" cols="30" rows="10" maxlength="500">Comment</textarea>
-
-        </p>
-        <label for="html_stand_for">What does HTML stand for?</label> <br/>
-        <select id="html_stand_for" name="html stand for">
-            <option disabled selected>Your answer</option>
-            <option value="1">Hyper Text Translate Protocol</option>
-            <option value="2">Hyper Text Transmission Protocol</option>
-            <option value="3">Hyper Text Transfer Protocol</option>
-        </select>
-        <p>
-            <button type="submit">Send</button>
-        </p>
-    </fieldset>
-</form>
 
 </body>
 </html>

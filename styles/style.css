@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+.section {
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 0 auto;
+    width: 306px;
+    font-style: normal;
+    font-size: 25px;
+    color: #383838;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.line {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.cards {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 80px 104px 120px;
+
+}
+
+p {
+    padding-top: 20px;
+}
