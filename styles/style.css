@@ -33,7 +33,7 @@ html {
 h2 {
     margin: 0 auto;
     width: 306px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
@@ -69,7 +69,7 @@ h2 {
 }
 .cards li p {
     padding-top: 48px;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -79,7 +79,7 @@ h2 {
 .footer {
     max-height: 630px;
     background-color: #10367C;
-    font-family: Roboto;
+    font-family: 'Roboto';
     color: #ffffff;
     display: flex;
     padding-top: 120px;
@@ -89,12 +89,13 @@ h2 {
 }
 
 .footer ul {
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     line-height: 23px;
     text-align: left;
     list-style: none;
+    width: 33.333%;
 }
 
 .footer ul li:first-child {
@@ -103,10 +104,14 @@ h2 {
 
 .footer ul li {
     padding-bottom: 24px;
+    font-size: 20px;
 }
 
 .copyright {
-    padding: 180px 0 120px 0;
+    padding: 163px 0 120px 0;
     font-size: 14px;
     line-height: 14px;
+}
+.footer-about {
+    padding-left: 104px;
 }
