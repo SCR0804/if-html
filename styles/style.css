@@ -220,6 +220,7 @@ ul {
     border: 3px solid #F3F3F4;
     border-radius: 8px;
     align-items: center;
+    border-right: none;
 }
 
 .destination {
@@ -245,7 +246,7 @@ ul {
 .submit {
     padding: 0;
     border-radius: 8px;
-    width: calc(25% - 30px);
+    width: 25%;
     height: 64px;
     color: #ffffff;
     background-color: #3077C6;
