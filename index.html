@@ -11,68 +11,143 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
+<div class="wrapper">
 
+    <div class="main-container">
+        <header class="header">
+            <div class="header_container container">
+                <a href="" class="header_logo">
+                    <img src="images/TripHouse.svg" alt="Logo">
+                </a>
+                <nav class="header_menu menu">
+                    <ul class="menu_list">
+                        <li class="menu_item">
+                            <a class="menu_link link_border" href="#">Stays</a>
+                        </li>
+                        <li class="menu_item">
+                            <a class="menu_link" href="#">Attractions</a>
+                        </li>
+                        <li class="menu_item night">
+                            <a class="menu_link" href="#">
+                                <img src="images/Night.png" alt="sign">
+                            </a>
+                        </li>
+                        <li class="menu_item">
+                            <a class="menu_link" href="#">
+                                <img src="images/AccountCircle.png" alt="sign">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
 
-<section class="section">
+        <main class="main">
+            <div class="main_block">
+                <div class="main_block_container container">
+                    <h1 class="main_block_title">
+                        Discover stays<br/>
+                        to live, work or just relax
+                    </h1>
+                    <div class="main_block_text">
+                        <form action="#">
 
-    <h2>What do we offer</h2>
-    <img class="line" src="images/line.png" alt="">
+                            <div class="main_form_input">
+                                <div class="input_wrap">
+                                    <label class="main_form_label" for="destination">Your destination or hotel
+                                        name</label>
+                                    <input class="destination input" id="destination" type="text" name="city"
+                                           placeholder="New York">
+                                </div>
+                                <div class="input_wrap">
+                                    <label class="main_form_label" for="calendar">Check-in — Check-out</label>
+                                    <input class="calendar input" id="calendar" type="date" name="date"
+                                           placeholder="Tue 15 Sept - Sat 19 Sept">
+                                </div>
+                                <div class="input_wrap">
+                                    <input class="settings input" id="settings" type="text" name="settings"
+                                           placeholder="2 Adults — 0 Children — 1 Room">
+                                </div>
 
+                                <button class="submit" type="submit">Search</button>
+                            </div>
+                        </form>
+                    </div>
 
-    <ul class="cards">
-        <li>
-            <img src="images/headphones.png" alt="Headphones">
-            <p>Support 24/7</p>
-        </li>
+                </div>
+                <div class="main_form_icons">
+                    <a class="main_form_icon_1" href="http://">
+                        <img src="./images/google-play.png" alt="Google Play">
+                        <a class="main_form_icon_2" href="http://">
+                            <img src="./images/app-store.png" alt="App Store">
+                        </a>
 
-        <li>
-            <img src="images/communicate.png" alt="Communicate">
-            <p>Communicate directly</p>
-        </li>
-
-        <li>
-            <img src="images/booking.png" alt="Booking">
-            <p>Book online</p>
-        </li>
-
-        <li>
-            <img src="images/finger.png" alt="Finger">
-            <p>Real guest reviews</p>
-        </li>
-
-    </ul>
-</section>
-
-<footer class="footer-container">
-    <div class="footer">
-        <ul>
-            <li>About</li>
-            <li>How Triphouse works</li>
-            <li>Careers</li>
-            <li>Privacy</li>
-            <li>Terms</li>
-        </ul>
-
-
-        <ul>
-            <li>Property types</li>
-            <li>Guest houses</li>
-            <li>Hotels</li>
-            <li>Apartments</li>
-            <li>Villas</li>
-            <li>Holiday homes</li>
-            <li>Hostels</li>
-        </ul>
-
-
-        <ul>
-            <li>Support</li>
-            <li>Contact Customer Service</li>
-            <li>FAQ</li>
-        </ul>
+                </div>
+            </div>
+        </main>
     </div>
-    <p class="copyright">&#169; 2020 Triphouse, Inc. All rights reserved</p>
-</footer>
 
+    <section class="section">
+
+        <h2>What do we offer</h2>
+        <img class="line" src="images/line.png" alt="">
+
+
+        <ul class="cards">
+            <li>
+                <img src="images/headphones.png" alt="Headphones">
+                <p>Support 24/7</p>
+            </li>
+
+            <li>
+                <img src="images/communicate.png" alt="Communicate">
+                <p>Communicate directly</p>
+            </li>
+
+            <li>
+                <img src="images/booking.png" alt="Booking">
+                <p>Book online</p>
+            </li>
+
+            <li>
+                <img src="images/finger.png" alt="Finger">
+                <p>Real guest reviews</p>
+            </li>
+
+        </ul>
+    </section>
+
+
+    <footer class="footer-container">
+        <div class="footer">
+            <ul>
+                <li>About</li>
+                <li>How Triphouse works</li>
+                <li>Careers</li>
+                <li>Privacy</li>
+                <li>Terms</li>
+            </ul>
+
+
+            <ul>
+                <li>Property types</li>
+                <li>Guest houses</li>
+                <li>Hotels</li>
+                <li>Apartments</li>
+                <li>Villas</li>
+                <li>Holiday homes</li>
+                <li>Hostels</li>
+            </ul>
+
+
+            <ul>
+                <li>Support</li>
+                <li>Contact Customer Service</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+        <p class="copyright">&#169; 2020 Triphouse, Inc. All rights reserved</p>
+    </footer>
+</div>
 </body>
 </html>
