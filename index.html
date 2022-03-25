@@ -51,18 +51,23 @@
                     </h1>
                     <div class="main_block_text">
                         <form action="#">
-                            <div class="main_form_label">
-                                <label for="destination">Your destination or hotel name</label>
-                                <label for="calendar">Check-in — Check-out</label>
-                            </div>
 
                             <div class="main_form_input">
-                                <input class="destination" id="destination" type="text" name="city"
-                                       placeholder="New York">
-                                <input class="calendar" id="calendar" type="text" name="date"
-                                       placeholder="Tue 15 Sept - Sat 19 Sept">
-                                <input class="settings" id="settings" type="text" name="settings"
-                                       placeholder="2 Adults — 0 Children — 1 Room">
+                                <div class="input_wrap">
+                                    <label class="main_form_label" for="destination">Your destination or hotel
+                                        name</label>
+                                    <input class="destination input" id="destination" type="text" name="city"
+                                           placeholder="New York">
+                                </div>
+                                <div class="input_wrap">
+                                    <label class="main_form_label" for="calendar">Check-in — Check-out</label>
+                                    <input class="calendar input" id="calendar" type="date" name="date"
+                                           placeholder="Tue 15 Sept - Sat 19 Sept">
+                                </div>
+                                <div class="input_wrap">
+                                    <input class="settings input" id="settings" type="text" name="settings"
+                                           placeholder="2 Adults — 0 Children — 1 Room">
+                                </div>
 
                                 <button class="submit" type="submit">Search</button>
                             </div>
@@ -73,7 +78,7 @@
                 <div class="main_form_icons">
                     <a class="main_form_icon_1" href="http://">
                         <img src="./images/google-play.png" alt="Google Play">
-                        <a main_form_icon_2 href="http://">
+                        <a class="main_form_icon_2" href="http://">
                             <img src="./images/app-store.png" alt="App Store">
                         </a>
 
