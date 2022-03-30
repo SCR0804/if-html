@@ -138,14 +138,14 @@ ul {
     position: relative;
 }
 
-.main_block_image img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    object-fit: cover;
-}
+/*.main_block_image img {*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    object-fit: cover;*/
+/*}*/
 
 .main_block_title {
     font-weight: 500;
@@ -295,6 +295,76 @@ ul {
 }
 
 /*Main end*/
+
+/*Section Homes start*/
+.section_homes {
+    background-color: #EAF0F9;
+    text-align: center;
+}
+
+.container_homes {
+    max-width: 1232px;
+    padding: 120px 0;
+    margin: 0 auto;
+}
+
+.homes_title_wrap {
+    margin: 0 auto;
+    padding-bottom: 104px;
+}
+
+.homes_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #383838;
+}
+
+.homes_picture {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.homes_pic img {
+    padding-bottom: 24px;
+}
+
+.homes_desc {
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #3077C6;
+    padding-bottom: 24px;
+}
+
+.homes_desc_two {
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #BFBFBF;
+}
+
+.homes_pic_arrow {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    right: 0;
+    top: 30%;
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    transform: translateX(50%);
+}
+
+/*Section Homes end*/
 
 /*Footer start*/
 .footer-container {
