@@ -29,7 +29,7 @@ html, body {
 
 .wrapper {
     min-height: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .container {
@@ -439,25 +439,25 @@ ul {
 
 @media screen and (max-width: 1034px) {
     .container {
-        max-width: 100%;
+        width: 100%;
     }
 
     .header_container {
-        max-width: 100%;
+        width: 100%;
     }
 
     .footer {
-        max-width: 100%;
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 600px) {
     .container {
-        max-width: 100%;
+        width: 100%;
     }
 
     .header_container {
-        max-width: 100%;
+        width: 100%;
     }
 
     .section_title {
@@ -515,3 +515,4 @@ ul {
         display: none;
     }
 }
+
