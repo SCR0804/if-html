@@ -410,6 +410,74 @@ ul {
 
 /*Section Homes end*/
 
+/*Section Destinations start*/
+.section_destinations {
+    background-color: #E5E5E5;
+    text-align: center;
+}
+
+.dest_switcher {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 64px;
+    margin-bottom: 64px;
+    border-radius: 8px;
+    border: none;
+}
+
+.dest_but {
+    flex-basis: 33.33%;
+}
+
+.dest_but:hover, .dest_but:active {
+    color: #fff;
+    background-color: #3077C6;;
+}
+/*Section Destinations end*/
+
+/*Section Sign up start*/
+
+.wrapper_signup_review {
+
+}
+
+.signup_wrap {
+    max-width: 1232px;
+    height: 200px;
+    background-color: #EAF0F9;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    gap: 24px;
+    align-items: center;
+}
+
+.signup_close {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+
+}
+
+.signup_user {
+    padding-left: 24px;
+}
+.signup_text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #383838;
+    padding-bottom: 20px;
+}
+
+
+/*Section Sign up end*/
+
 /*Footer start*/
 .footer-container {
     width: 100%;
