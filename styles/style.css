@@ -17,9 +17,9 @@
 }
 
 html, body {
-    /*height: 100%;*/
-    /*line-height: 1;*/
-    /*font-size: 24px;*/
+    height: 100%;
+    line-height: 1;
+    font-size: 24px;
     color: #383838;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -30,7 +30,6 @@ html, body {
 .wrapper {
     height: 100%;
     width: 100%;
-    /*overflow: hidden;*/
 }
 
 .main-container {
@@ -39,15 +38,10 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*.container {*/
-/*    max-width: 1232px;*/
-/*    margin: 0 auto;*/
-/*}*/
 
 * {
     margin: 0;
     box-sizing: border-box;
-
 }
 
 a {
@@ -68,12 +62,6 @@ ul {
     z-index: 1;
 }
 
-/*.header_logo {*/
-/*    position: absolute;*/
-/*    top: 51px;*/
-/*    left: 0;*/
-/*}*/
-
 .header_container {
     max-width: 1232px;
     margin: 0 auto;
@@ -82,17 +70,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     position: relative;
-
 }
-
-/*.header_container_nav {*/
-/*    width: 100%;*/
-/*}*/
-
-/*.header_menu {*/
-/*    max-width: 1232px;*/
-/*    margin: 0 auto;*/
-/*}*/
 
 .header_logo {
     color: #3077C6;
@@ -103,6 +81,10 @@ ul {
 .menu_list {
     display: flex;
     justify-content: flex-end;
+}
+
+.menu_item {
+
 }
 
 .menu_item:not(:last-child) {
@@ -123,8 +105,6 @@ ul {
     padding-bottom: 12px;
     position: relative;
 }
-
-
 
 .menu_link::after {
     content: '';
@@ -149,6 +129,14 @@ ul {
 /*Main start*/
 .main {
     width: 100%;
+    min-height: 100vh;
+    background-image: url("../images/top_section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    flex: 1 1 auto;
 }
 
 .main_block {
@@ -156,22 +144,6 @@ ul {
     max-width: 1232px;
     margin: 0 auto;
 }
-
-
-
-/*.main {*/
-/*    flex: 1 1 auto;*/
-/*}*/
-
-
-/*.main_block_image img {*/
-/*    position: absolute;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    left: 0;*/
-/*    top: 0;*/
-/*    object-fit: cover;*/
-/*}*/
 
 .main_block_title {
     font-weight: 500;
@@ -303,14 +275,12 @@ ul {
     left: 95px;
 }
 
-
 .cards {
     list-style: none;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     padding: 80px 104px 120px;
-    /*align-items: center;*/
 }
 
 .cards li {
@@ -454,7 +424,6 @@ ul {
 }
 
 .copyright {
-
     font-size: 14px;
     padding-top: 47px;
 }
@@ -474,7 +443,6 @@ ul {
     .header_logo {
         left: 154px;
     }
-
 }
 
 @media screen and (max-width: 1034px) {
